@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+    />
+    <style>
+      .columns,
+      .column {
+        background: #f4f4f4;
+        border: 1px #ccc solid;
+        padding: 10px;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Heading</h1>
+    <h2>Heading</h2>
+    <h3>Heading</h3>
+    <h4>Heading</h4>
+    <h5>Heading</h5>
+    <h6>Heading</h6>
+
+    <!-- floats -->
+    <h2 class="u-pull-left">Left</h2>
+    <h2 class="u-pull-right">Right</h2>
+    <div class="u-cf"></div>
+
+    <!-- buttons -->
+    <button>Button</button>
+    <button>Button</button>
+    <input type="submit" value="Submit" />
+
+    <a href="" class="button">Link</a>
+    <br /><br />
+
+    <!--primary buttons-->
+    <button class="button-primary">Button</button>
+    <input class="button-primary" type="submit" value="Submit" />
+    <input class="button-primary" type="button" value="Submit" />
+    <a href="" class="button button-primary">Link</a>
+
+    <!-- FULL WIDTH (not just for buttons)-->
+    <button class="u-full-width button-primary">Full Width Button</button>
+
+    <!--LISTS-->
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>
+        Services
+        <ul>
+          <li>Web design</li>
+          <li>Sales</li>
+        </ul>
+      </li>
+      <li>Contact</li>
+    </ul>
+
+    <!-- CODE BLOCK-->
+    <pre>
+        <code>
+            body{
+                color:#fff;
+                background: #000;
+            }
+        </code>
+
+        <!-- TABLES -->
+        <table class="u-full-width">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>City</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ellen Setevens</td>
+                    <td>ellen@yahoo.com</td>
+                    <td>boston</td>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>robotchicken@yahoo.com</td>
+                    <td>New York</td>
+                </tr>
+            </tbody>
+        </table>
+    </pre>
+
+    <!-- FORMS -->
+    <form>
+      <div>
+        <label>Name</label>
+        <input class="u-full-width" type="text" placeholder="Enter name" />
+      </div>
+      <div>
+        <label>Membership</label>
+        <select class="u-full-width">
+          <option value="1">Bronze</option>
+          <option value="2">Silver</option>
+          <option value="3">Gold</option>
+        </select>
+      </div>
+      <div>
+        <label>Message</label>
+        <textarea
+          placeholder="enter message..."
+          class="u-full-width"
+        ></textarea>
+      </div>
+      <div>
+        <label class="">
+          <input type="checkbox" />
+          <span class="label-body">Subscribe to email</span>
+        </label>
+      </div>
+      <input type="submit" class="button-primary" value="Submit" />
+    </form>
+
+    <!-- Grid System -->
+    <div class="row">
+      <div class="eight columns">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi labore
+        ipsa, pariatur nulla nisi nesciunt tempore at consequuntur consequatur
+        deserunt, molestias nam dolore error! Illum commodi culpa quisquam
+        tempore ab, consectetur neque sapiente modi sed labore distinctio quis
+        exercitationem expedita.
+      </div>
+      <div class="four columns">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi labore
+        ipsa, pariatur nulla nisi nesciunt tempore at consequuntur consequatur
+        deserunt, molestias nam dolore error! Illum commodi culpa quisquam
+        tempore ab, consectetur neque sapiente modi sed labore distinctio quis
+        exercitationem expedita.
+      </div>
+    </div>
+    <div class="row">
+      <div class="six columns">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi labore
+        ipsa, pariatur nulla nisi nesciunt tempore at consequuntur consequatur
+        deserunt, molestias nam dolore error! Illum commodi culpa quisquam
+        tempore ab, consectetur neque sapiente modi sed labore distinctio quis
+        exercitationem expedita.
+      </div>
+      <div class="six columns">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi labore
+        ipsa, pariatur nulla nisi nesciunt tempore at consequuntur consequatur
+        deserunt, molestias nam dolore error! Illum commodi culpa quisquam
+        tempore ab, consectetur neque sapiente modi sed labore distinctio quis
+        exercitationem expedita.
+      </div>
+    </div>
+
+    <br />
+    <!--Allows for fractions as well-->
+    <div class="row">
+      <div class="one-third column">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Necessitatibus, voluptas!
+      </div>
+      <div class="two-thirds column">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Necessitatibus, voluptas!
+      </div>
+    </div>
+    <div style="margin-top: 500px"></div>
+  </body>
+</html>
